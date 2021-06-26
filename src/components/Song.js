@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Song({ currentSong }) {
+const Song = ({ currentSong }) => {
     return (
         <div className="song-container">
             <img alt={currentSong.name} src={currentSong.cover}></img>
